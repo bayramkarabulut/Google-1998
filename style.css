@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo, .search, .help, .footer{
+    text-align: center;
+}
+.help-1,.help-2,.help-3{
+    float: left;
+    line-height: 2px;
+    
+    width: 415px;
+    height: 90px;
+    margin: 1px;
+}
+.help{
+    background-color: aquamarine;
+    margin-left: 100px;
+    
+}
+.footer{
+    margin: 120px 200px 120px 200px;
+}
+.help-1{
+    background-color: #7EE5DA;
+
+}
+.help-2{
+    font-size: 13px;
+    background-color: #70CCC2;
+}
+.help-3{
+    font-size: 13px;
+    background-color: #62B3AA;
+}
+.help-3 a{
+    margin-left: 10px;
+}
+
+.search{
+   background-color: #EEEEEE;
+   width: 1250px;
+   margin-left: 100px;   
+}
+.search a:link{
+    text-decoration: none;
+}
+.help-3 button{
+    margin-left: 140px;
+}
